@@ -71,11 +71,11 @@ class ExpandableCollectionViewCellType2: UITableViewCell,UIScrollViewDelegate, U
         self.parentOfAllLabel.addSubview(label3)
 
         label4.frame = CGRect(x: 20, y: 70, width: UIScreen.main.bounds.width - 40, height: 20)
-        label1.text = "label4"
+        label4.text = "label4"
         self.parentOfAllLabel.addSubview(label4)
 
         label5.frame = CGRect(x: 20, y: 90, width: UIScreen.main.bounds.width - 40, height: 20)
-        label1.text = "label5"
+        label5.text = "label5"
         self.parentOfAllLabel.addSubview(label5)
 
     }
